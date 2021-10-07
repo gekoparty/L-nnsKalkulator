@@ -1,11 +1,17 @@
 
 import './App.css';
 
+import Header from './components/Header';
+import MainContent from './components/Layouts/MainContent';
+
+
+
 function App() {
   return (
     <div className="App">
-      
-    </div>
+      <Header />
+      <MainContent />
+      </div>
   );
 }
 
